@@ -2,14 +2,13 @@ import Footer from "components/navigation/Footer"
 import Navbar from "components/navigation/Navbar"
 import Layout from "hocs/layouts/Layout"
 
-
-function Home(){
+function Services(){
     return(
         <Layout>
             <Navbar ></Navbar>
-            Home
+            Services
             <Footer></Footer>
         </Layout>
     )
 }   
-export default Home
+export default Services

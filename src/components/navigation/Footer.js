@@ -1,38 +1,40 @@
 import { connect } from "react-redux"
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faFacebook,faTwitter, faGoogle, faInstagram,faLinkedin,faGithub } from '@fortawesome/free-brands-svg-icons'
+
+
 
 function Footer() {
     return (
+
         <div>
+
             <footer className="bg-dark text-center text-white">
-            
+
                 <div className="container p-4">
                     <section className="mb-4">
                         <a className="btn btn-outline-light btn-floating m-1" href="#!" role="button"
-                        ><i className="fab fa-facebook-f"></i
-                        ></a>
+                        ><FontAwesomeIcon icon={faFacebook} /> {" "}</a>
+
 
                         <a className="btn btn-outline-light btn-floating m-1" href="#!" role="button"
-                        ><i className="fab fa-twitter"></i
-                        ></a>
+                        ><FontAwesomeIcon icon={faTwitter} /> {" "}</a>
 
                         <a className="btn btn-outline-light btn-floating m-1" href="#!" role="button"
-                        ><i className="fab fa-google"></i
-                        ></a>
+                        ><FontAwesomeIcon icon={faGoogle} /> {" "}</a>
 
                         <a className="btn btn-outline-light btn-floating m-1" href="#!" role="button"
-                        ><i className="fab fa-instagram"></i
-                        ></a>
+                        ><FontAwesomeIcon icon={faInstagram} /> {" "}</a>
 
                         <a className="btn btn-outline-light btn-floating m-1" href="#!" role="button"
-                        ><i className="fab fa-linkedin-in"></i
-                        ></a>
+                        ><FontAwesomeIcon icon={faLinkedin} /> {" "}</a>
 
                         <a className="btn btn-outline-light btn-floating m-1" href="#!" role="button"
-                        ><i className="fab fa-github"></i
-                        ></a>
+                        ><FontAwesomeIcon icon={faGithub} /> {" "}</a>
                     </section>
 
                     <section className="">
+
                         <form action="">
                             <div className="row d-flex justify-content-center">
                                 <div className="col-auto">
